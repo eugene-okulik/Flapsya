@@ -17,7 +17,7 @@ my_dict['list'].pop(1)
 
 
 #  Для того, что хранится под ключом ‘dict’
-my_dict['dict']['i am a tuple'] = 'test'
+my_dict['dict'][(str('i am a tuple',))] = 'test'
 my_dict['dict'].pop(150)
 
 
