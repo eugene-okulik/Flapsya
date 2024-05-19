@@ -16,4 +16,5 @@ for word in words:
         fin_words.append(word_ing)
     elif '.' not in word or ',' not in word:
         fin_words.append(word_ing)
+
 print(' '.join(fin_words))
